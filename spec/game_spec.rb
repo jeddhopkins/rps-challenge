@@ -5,7 +5,7 @@ describe Game do
 
   describe '#new' do
     it 'should name the player on initialization' do
-      expect(game.player.name).to eq("Jedd")
+      expect(game.player_1.name).to eq("Jedd")
     end
   end
 end
